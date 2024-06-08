@@ -1,0 +1,123 @@
+/* src/SinglePage.css */
+.main-container {
+  font-family: Arial, sans-serif;
+}
+
+.main-header {
+  background-color: #f8f9fa;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.brand-container {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: center;
+}
+
+.brand-logo {
+  width: 90px; /* Increased width */
+  height: 90px; /* Decreased height */
+}
+
+.brand-text {
+  font-size: 3em; /* Decreased font size */
+  color: lightskyblue;
+  margin-left: 10px;
+  text-align: center;
+}
+
+main {
+  padding: 20px;
+}
+
+.services-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.service-box {
+  background-color: #084c8d; /* Darker blue background */
+  border-radius: 10px;
+  padding: 15px; /* Decreased padding */
+  margin: 10px;
+  width: 200px; /* Increased width */
+  text-align: center;
+  color: white; /* White text color */
+}
+
+.service-text {
+  color: cyan; /* Cyan color for the div text headings */
+}
+
+.subscription-container {
+  background-color: #f8f9fa;
+  padding: 20px;
+  text-align: center;
+}
+
+.email-field {
+  padding: 10px;
+  width: 220px; /* Increased width */
+  margin-right: 10px;
+  border-radius: 8%;
+}
+
+.subscribe-button {
+  padding: 10px 40px;
+  background-color: orange;
+  color:white;
+  font-weight: 200;
+  border: none;
+  cursor: pointer;
+  border-radius: 8%;
+}
+
+.subscribe-button:hover {
+  background-color: #0056b3;
+}
+
+/* Media Queries for Responsive Design */
+
+/* Mobile View (480p) */
+@media only screen and (max-width: 480px) {
+  .brand-logo {
+    width: 70px; /* Adjusted width for smaller screens */
+    height: 70px; /* Adjusted height for smaller screens */
+  }
+  
+  .brand-text {
+    font-size: 2em; /* Adjusted font size for smaller screens */
+  }
+  
+  .service-box {
+    width: 150px; /* Adjusted width for smaller screens */
+  }
+  
+  .email-field {
+    width: 180px; /* Adjusted width for smaller screens */
+  }
+}
+
+/* 720p */
+@media only screen and (min-width: 481px) and (max-width: 720px) {
+  /* Adjustments specific to 720p resolution */
+}
+
+/* 1080p */
+@media only screen and (min-width: 721px) and (max-width: 1080px) {
+  /* Adjustments specific to 1080p resolution */
+}
+
+/* iPad (2732x2048) */
+@media only screen and (min-width: 1081px) and (max-width: 2732px) {
+  /* Adjustments specific to iPad resolution */
+}
+
+/* MacBook (1440x823) */
+@media only screen and (min-width: 2733px) {
+  /* Adjustments specific to MacBook resolution */
+}
